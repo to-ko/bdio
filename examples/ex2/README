@@ -1,0 +1,12 @@
+Example 2
+---------
+
+takes a file and creates a bdio file that contains
+- the file's MD5 sum
+- a compressed version of the file
+- a script to extract the original file from the bdio file and compare the
+  checksum
+
+usage:
+
+ex2 <input-file> <output bdio-file>

@@ -1,0 +1,24 @@
+BDIO - Binary Data I/O
+----------------------
+
+BDIO is a file format for structured binary data. The 
+format specification can be found on www.bdio.org
+Or in the doc folder of this distribution.
+
+BDIO is also a library, in which essential tools for
+reading, writing and manipulating bdio files are 
+implemented. A full implementation in C is provided here,
+and a partial implementation in MATLAB (reading bdio files) 
+as well.
+
+In addition this distribution contains several command line tools
+and a test-suite.
+
+Authorship:
+- The BDIO file format was devised by Hubert Simma and Tomasz Korzec
+- The architecture of the BDIO library (data structures and prototypes) 
+  was developed by Hubert Simma and Tomasz Korzec
+- The BDIO library implementation in C and MATLAB is by Tomasz Korzec, with
+  contributions by Alberto Ramos (MD5 checksums)
+- The library for computation of MD5 checksums, that is bundled with this
+  release, was written by Alexander Peslyak

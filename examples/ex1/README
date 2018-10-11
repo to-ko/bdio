@@ -1,0 +1,5 @@
+Example 1
+---------
+
+create a simple bdio file that contains x,y,dy data in separate records
+and an additional record with a script to display the data in gnuplot.
