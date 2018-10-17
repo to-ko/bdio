@@ -1252,7 +1252,7 @@ void bdio_set_host(char* u)
    else
    {
       strncpy(host_str,u,BDIO_MAX_HOST_LENGTH-1);
-      user_str[BDIO_MAX_HOST_LENGTH-1]='\0';
+      host_str[BDIO_MAX_HOST_LENGTH-1]='\0';
    }
 }
 
